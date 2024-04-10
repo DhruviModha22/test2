@@ -1,0 +1,13 @@
+// check wheether a boy can maary or not using terrany operator
+#include <stdio.h>
+
+int main()
+{
+  int age;
+  
+  printf("enter your age:");
+  scanf("%d",&age);
+  
+  age>=21?printf("you can marry"):printf("get yourself a banana milk");
+    return 0;
+}

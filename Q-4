@@ -1,0 +1,21 @@
+// findout all leap years
+#include <stdio.h>
+
+int main() {
+    int sYear, eYear;
+
+    printf("Enter start year: ");
+    scanf("%d", &sYear);
+
+    printf("Enter end year: ");
+    scanf("%d", &eYear);
+
+    printf("Leap years between %d and %d:\n", sYear, eYear);
+
+    for (int year = sYear; year <= eYear; year++) {
+        if (year % 4 == 0 )
+            printf("%d\n", year);
+    }
+
+    return 0;
+}
